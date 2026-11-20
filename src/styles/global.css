@@ -1,0 +1,35 @@
+
+:root {
+  --color-background: #F4F3F2;
+  --color-primary: #747D22;
+  --color-text: #25251F;
+
+  --font-main: "Fira Sans", sans-serif;
+  --font-code: "Fira Code", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-main);
+}
+
+.app-container {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.content-container {
+  width: min(100% - 80px, 1440px);
+  margin-inline: auto;
+}
